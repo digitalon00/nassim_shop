@@ -1,0 +1,481 @@
+@font-face {
+    font-family: cairo;
+    src: url(fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cairo;
+}
+
+body {
+    background-color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(149, 149, 149);
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #eeecec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 10px #000;
+    z-index: 10;
+}
+
+.header img {
+    width: 30px;
+    height: 40px;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+    width: 16%;
+}
+
+.header .links a {
+    text-decoration: none;
+    color: #000;
+    transition: all ease .3s;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.header .links a:hover {
+    background-color: #000000;
+    transform: translateX(-3px);
+    color: #fff;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.products .products_container {
+    width: 100%;
+    height: auto;
+}
+
+.products .products_container .pub1 {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.products .products_container .pub1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.products .products_container  h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.products .products_container .grids {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.products .products_container .grids a {
+    text-decoration: none;
+}
+
+.products .products_container .grids .grid {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 8px #9f9d9d;
+    transition: all ease .3s;
+}
+
+.products .products_container .grids .grid:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
+
+.products .products_container .grids .grid img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.products .products_container .grids .grid .details {
+    width: 100%;
+    text-align: center;
+}
+
+.products .products_container .grids .grid .details h2 {
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 20px;
+}
+
+.products .products_container .grids .grid .details p {
+    margin-bottom: 3px;
+    color: #000;
+}
+
+.tva {
+    color: rgb(219, 13, 13);
+    text-decoration: line-through;
+}
+
+
+.products .products_container .grids .grid .details .tva{
+        color: rgb(219, 13, 13);
+    text-decoration: line-through;
+}
+
+.about {
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.about .about_container {
+    width: 100%;
+    height: 100%;
+}
+
+.about .about_container h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about .about_container .grids {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about_container .grids .grid {
+    text-align: center;
+    width: 30%;
+}
+
+.about .about_container .grids .grid span {
+    background-color: #000;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.about .about_container .grids .grid h5 {
+    font-size: 16px;
+}
+
+.about .about_container .grids .grid p {
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+
+.social {
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.social .social_container {
+    width: 100%;
+    height: 100%;
+}
+
+.social .social_container h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.social .social_container p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social .social_container .grids {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+}
+
+.social .social_container .grids .grid {
+    text-align: center;
+    width: 50%;
+}
+
+.social .social_container .grids .grid img {
+    width: 60px;
+    border-radius: 15px;
+}
+
+.social .social_container .grids .grid h5 {
+    font-size: 18px;
+}
+
+.social .social_container .grids .grid p {
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.social .social_container .grids .grid a {
+    font-size: 14px;
+    padding: 8px 15px;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    transition: all ease .3s;
+}
+
+.social .social_container .grids .grid a:hover {
+    transform: translateY(3px);
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+footer .footer_container {
+    width: 100%;
+    height: 100%;
+}
+
+footer .footer_container .f_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+footer .footer_container .f_header img {
+    width: 70px;
+}
+
+footer .footer_container .f_content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin: auto;
+}
+
+footer .footer_container .f_content div {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .footer_container .f_content div h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer .footer_container .f_content div a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+footer .footer_container .f_footer {
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer .footer_container .f_footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #000;
+}
+
+footer .footer_container .f_footer p span {
+    font-size: 25px;
+}
+
+footer .footer_container .f_footer p a {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+footer .footer_container .f_footer p a ion-icon {
+    color: #34d100;
+}
+
+.border {
+    width: 70%;
+    height: 0.1px;
+    background-color: #000000;
+    margin: auto;
+}
+
+@media screen and (max-width:750px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header .links {
+        width: 42%;
+    }
+
+    .header .links a {
+        font-size: 14px;
+        padding: 5px 2px;
+    }
+
+    .products .products_container .pub1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .products .products_container .pub1 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .products .products_container .grids {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products .products_container .grids .grid .details h2 {
+        font-size: 14px;
+    }
+
+    .products .products_container .grids .grid img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 0px;
+    }
+
+    .about {
+        height: 80vh;
+    }
+
+    .about .about_container h2 {
+        font-size: 25px;
+    }
+
+    .about .about_container .grids .grid h5 {
+        font-size: 15px;
+    }
+
+    .about .about_container .grids .grid p {
+        font-size: 14px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .about .about_container .grids {
+        display: block;
+    }
+
+    .about .about_container .grids .grid {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        height: 50vh;
+    }
+
+    .social .social_container h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .social .social_container p {
+        font-size: 17px;
+    }
+
+    .social .social_container .grids {
+        width: 100%;
+    }
+
+    footer {
+        padding-bottom: 20px;
+    }
+
+    footer .footer_container .f_content {
+        width: 100%;
+        padding: 30px 0;
+        display: block;
+    }
+
+    footer .footer_container .f_content div {
+        width: 100%;
+    }
+
+    footer .footer_container .f_footer p {
+        font-size: 12px;
+    }
+    
+    footer .footer_container .f_footer p span {
+        font-size: 25px;
+    }
+    
+    footer .footer_container .f_footer p a {
+        font-size: 14px;
+    }
+}
