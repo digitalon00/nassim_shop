@@ -1,0 +1,131 @@
+.politique {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+.politique .politique_container {
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+    direction: rtl;
+}
+
+.politique .politique_container h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.politique .politique_container .para {
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.politique .politique_container .para h5 {
+    font-size: 17px;
+}
+
+.politique .politique_container .para p {
+    font-size: 13px;
+}
+
+.changer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+.changer .changer_container {
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+    direction: rtl;
+}
+
+.changer .changer_container h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.changer .changer_container .para {
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.changer .changer_container .para h5 {
+    font-size: 17px;
+}
+
+.changer .changer_container .para p {
+    font-size: 13px;
+}
+
+.paiement {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+.paiement .paiement_container {
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+    direction: rtl;
+}
+
+.paiement .paiement_container h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.paiement .paiement_container .para {
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.paiement .paiement_container .para h5 {
+    font-size: 17px;
+}
+
+.paiement .paiement_container .para p {
+    font-size: 13px;
+}
+
+.paiement .paiement_container .para p a {
+    font-size: 15px;
+}
+
+.privacy {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+.privacy .privacy_container {
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+    direction: rtl;
+}
+
+.privacy .privacy_container h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.privacy .privacy_container .para {
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.privacy .privacy_container .para h5 {
+    font-size: 17px;
+}
+
+.privacy .privacy_container .para p {
+    font-size: 13px;
+}
